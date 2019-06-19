@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match
+    array.match 
     binding.pry
   end
 
