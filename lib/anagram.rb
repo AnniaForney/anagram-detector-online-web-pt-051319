@@ -12,7 +12,8 @@ class Anagram
 
   def match(array)
     @word = @word.chars.sort.join
-    array.select {|word| word.chars.sort.join} 
+    array.select {|word| word.chars.sort.join == @word}
+  end 
 
     binding.pry
   end
