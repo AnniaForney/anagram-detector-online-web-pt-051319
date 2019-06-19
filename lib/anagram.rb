@@ -11,7 +11,7 @@ class Anagram
   end
 
   def match(array)
-    word.chars.sort.join
+    @word = word.chars.sort.join
     binding.pry
   end
 
