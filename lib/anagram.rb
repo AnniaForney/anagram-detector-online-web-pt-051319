@@ -12,7 +12,7 @@ class Anagram
 
   def match(array)
     @word = @word.chars.sort.join
-    
+    array.select 
     binding.pry
   end
 
