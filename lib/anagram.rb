@@ -8,8 +8,8 @@ class Anagram
       @word = word
   end
 
-  def match
-    array.match 
+  def match(array)
+    array.match
     binding.pry
   end
 
