@@ -14,8 +14,4 @@ class Anagram
     @word = @word.chars.sort.join
     array.select {|word| word.chars.sort.join == @word}
   end 
-
-    binding.pry
-  end
-
 end
